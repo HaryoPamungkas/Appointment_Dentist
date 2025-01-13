@@ -1,0 +1,64 @@
+.container-scroller {
+    overflow-x: hidden;
+}
+.table-container {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #555;
+}
+th {
+    background-color: #444;
+    color: #fff;
+    font-weight: bold;
+}
+tr:hover {
+    background-color: #555;
+}
+.btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-success {
+    background-color: #06D001;
+    color: white;
+}
+.btn-danger {
+    background-color: #ff0000;
+    color: white;
+}
+.status {
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: inline-block;
+    min-width: 80px;
+}
+.status-accepted {
+    background-color: #06D001;
+    color: white;
+}
+.status-canceled {
+    background-color: #ff0000;
+    color: white;
+}
+.status-pending {
+    background-color: #f0ad4e;
+    color: white;
+}
